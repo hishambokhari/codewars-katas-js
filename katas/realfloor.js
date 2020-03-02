@@ -25,4 +25,5 @@ function getRealFloor(n) {
     return n-2;
 }
 
-console.log(getRealFloor(15))
+
+
