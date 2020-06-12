@@ -27,7 +27,7 @@
 // welsh: 'Croeso'
 
 function greet(language) {
-    return languages[language] || langs['english'];
+    return languages[language] || languages['english'];
 }
 
 const languages = {
