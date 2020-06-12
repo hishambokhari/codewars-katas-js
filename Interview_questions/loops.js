@@ -31,10 +31,41 @@
 
 // looping with arrays - loop through arrays
 
-const cars = ['ford', 'chevy', 'honda', 'toyota'];
+// const cars = ['ford', 'chevy', 'honda', 'toyota'];
 
 
 // for(let i=0; i<cars.length; i++){
 //     console.log(cars[i]);
+// }
+
+// Foreach loop
+// cars.forEach(function(car, index){
+//     console.log(`${index} : ${car}`);
+// });
+
+// Map
+
+// const users = [
+//     {id:1, name: 'john'},
+//     {id:2, name: 'Sara'},
+//     {id:3, name: 'Karen'}
+// ];
+
+// const ids = users.map(function(user){
+//     return user.id
+// });
+
+// console.log(ids);
+
+//For in loop
+
+// const user = {
+//     firstName: 'John',
+//     lastName: 'Doe',
+//     age: 40
+// }
+
+// for(let x in user){
+//     console.log(`${x} : ${user[x]}`);
 // }
 
