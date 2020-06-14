@@ -12,3 +12,15 @@
 // console.log(myArray)
 
 
+// How do you create a private method variable in JS
+
+// function secretvariable(){
+//     var private = "Super secret code"
+//     return function(){
+//         return private
+//     }
+// }
+
+// var getPrivateVariable = secretvariable()
+
+// console.log(getPrivateVariable())
