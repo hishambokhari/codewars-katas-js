@@ -8,16 +8,15 @@
 
 
 function maps(x){
-    var newArray = [];
+   var newT = [];
 
-    x.map(function(y){
-        newArray.push(y*2);
-    });
-
-    return newArray;
+   for(i=0;i < x.length;i++){
+    newT.push(x[i]*2);
+   }
+   return newT;
 
 }
-console.log(maps([1, 2, 3]));
+console.log(maps([4, 1, 1, 1, 4]));
 
 // Test.describe("Example tests",()=>{
 //     Test.assertDeepEquals(maps([1, 2, 3]), [2, 4, 6]);
