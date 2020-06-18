@@ -27,3 +27,9 @@
 // let x = "I love loving your love"
 
 // console.log(x.split(" ").reverse().join(" "));
+
+// let y = 25.555 // coverts to 25
+
+// console.log(parseInt(25.555))
+
+
