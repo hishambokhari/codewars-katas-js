@@ -10,3 +10,15 @@
 // for(let i = 2;i <= 100;i+=4){ // print numbers with increments of 4 between 1 and 100
 //   console.log(i)
 // }
+
+
+//while loops
+
+// let i = 0; // numbers from 1 to 100
+
+// while(i<=100){
+//   console.log(i)
+//   i++
+// }
+
+ 
