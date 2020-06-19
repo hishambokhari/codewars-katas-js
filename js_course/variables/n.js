@@ -8,11 +8,11 @@
 
 
 function twoOldestAges(ages){
-  return ages.sort(sortPop).slice(-2)
+  return ages.sort(sortPop).slice(-2) // slice to return the last 2 
   
 }
 
-function sortPop(a,b){
+function sortPop(a,b){ // compare function
   return a - b;
 }
 
