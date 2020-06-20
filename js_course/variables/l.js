@@ -93,3 +93,18 @@ const profile = {
 // ary.sort(cb)
 
 // console.log(ary)
+
+// some() -- checks if elemetns include 2 
+
+// const ary = [1,9,7,2]
+
+// const cb = function(e){
+//   return e === 2;
+// }
+
+// let hasSomeTwo = ary.some(cb)
+
+// console.log(hasSomeTwo);
+
+
+
