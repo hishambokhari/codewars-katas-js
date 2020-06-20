@@ -64,18 +64,32 @@ const profile = {
  // using filter ro remove even values value
 
 
- const numAry = [1,2,3];
+//  const numAry = [1,2,3];
 
- const cb = function(e){
-   if(e%2===0){
+//  const cb = function(e){
+//    if(e%2===0){
   
-  } else {
-    return e*2
-  }
- }
+//   } else {
+//     return e*2
+//   }
+//  }
 
 
- const newArray = numAry.filter(cb);
+//  const newArray = numAry.filter(cb);
 
 
- console.log(newArray);
+//  console.log(newArray);
+
+//sorting
+
+// const ary = [1,2,5,8,3,9,4,22];
+
+
+
+// const cb = function(a,b){
+//   return a-b
+// }
+
+// ary.sort(cb)
+
+// console.log(ary)
