@@ -28,6 +28,20 @@ const profile = {
   }]
 };
 
-profile.kids.push({name: "joe",age: 5})
+// profile.kids.push({name: "joe",age: 5})
+// console.log(profile.kids)
 
-console.log(profile.kids)
+//itterating objects
+// for(let prop in profile){
+// console.log(`key:${prop} - value:${profile[prop]}`)
+// }
+
+// Destructuring
+
+const obj = { x:1, y:2};
+
+let {x, y} = obj;
+
+console.log(y)
+
+
