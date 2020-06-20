@@ -58,21 +58,45 @@
 
 // myArr = ['Keep', 'Remove', 'Keep', 'Remove', 'Keep', ...];
 
-function removeEveryOther(arr){
+// function removeEveryOther(arr){
 
-  let newArr = [];
+//   let newArr = [];
 
-  for(let i = 0;i <arr.length;i+=2){
-    newArr.push(arr[i]);
-  }
-  return newArr;
+//   for(let i = 0;i <arr.length;i+=2){
+//     newArr.push(arr[i]);
+//   }
+//   return newArr;
 
-}
+// }
 
-console.log(removeEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+// console.log(removeEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 // Test.describe("Basic tests",_=>{
 //   Test.assertSimilar(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']),['Hello', 'Hello Again']);
 //   Test.assertSimilar(removeEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]),[1, 3, 5, 7, 9]);
 //   Test.assertSimilar(removeEveryOther([[1, 2]]), [[1, 2]]);
 //   Test.assertSimilar(removeEveryOther([['Goodbye'], {'Great': 'Job'}]),[['Goodbye']]);
 //   })
+
+// We want an array, but not just any old array, an array with contents!
+
+// Write a function that produces an array with the numbers 0 to N-1 in it.
+
+// For example, the following code will result in an array containing the numbers 0 to 4:
+
+// arr(5) // => [0,1,2,3,4]
+
+function arr(n){
+  var newArr = [];
+  for(var i = 0; i < n; i++){
+    newArr.push(i);
+  }
+  return newArr;
+}
+
+console.log(arr(4))
+
+// describe('#arr creates a new array with the numbers 0 to N-1',_=>{
+//   it('should return an array',_=>Test.expect(arr() instanceof Array));
+//   it('should return a blank array when called with no argument',_=>Test.assertSimilar(arr(), []));
+//   it('should return 0 to 3 when called with 4',_=>Test.assertSimilar(arr(4), [0,1,2,3]));
+// });
