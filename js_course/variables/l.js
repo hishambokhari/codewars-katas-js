@@ -38,10 +38,44 @@ const profile = {
 
 // Destructuring
 
-const obj = { x:1, y:2};
+// const obj = { x:1, y:2};
 
-let {x, y} = obj;
+// let {x, y} = obj;
 
-console.log(y)
+// console.log(y)
 
 
+// maps using callbacks
+
+//  const numAry = [1,2,3];
+
+//  const cb = function(e){
+//    if(e%2===0){
+//    return e
+//   } else {
+//     return e*2
+//   }
+//  }
+
+
+//  const newArray = numAry.map(cb);
+
+
+ // using filter ro remove even values value
+
+
+ const numAry = [1,2,3];
+
+ const cb = function(e){
+   if(e%2===0){
+  
+  } else {
+    return e*2
+  }
+ }
+
+
+ const newArray = numAry.filter(cb);
+
+
+ console.log(newArray);
