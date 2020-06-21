@@ -85,15 +85,15 @@
 
 // arr(5) // => [0,1,2,3,4]
 
-function arr(n){
-  var newArr = [];
-  for(var i = 0; i < n; i++){
-    newArr.push(i);
-  }
-  return newArr;
-}
+// function arr(n){
+//   var newArr = [];
+//   for(var i = 0; i < n; i++){
+//     newArr.push(i);
+//   }
+//   return newArr;
+// }
 
-console.log(arr(4))
+// console.log(arr(4))
 
 // describe('#arr creates a new array with the numbers 0 to N-1',_=>{
 //   it('should return an array',_=>Test.expect(arr() instanceof Array));
