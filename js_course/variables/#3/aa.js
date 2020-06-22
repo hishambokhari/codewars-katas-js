@@ -13,7 +13,7 @@
 // Make sure you cover the cases where certain words do not show up with correct capitalization. For example, getDrinkByProfession("pOLitiCIaN") should still return "Your tax dollars".
 
 function getDrinkByProfession(param){
-  var obj = {
+  var drink = {
     'jabroni':'Patron Tequila',
     "school counselor": "Anything with Alcohol",
     "programmer": "Hipster Craft Beer",
@@ -22,7 +22,7 @@ function getDrinkByProfession(param){
     "rapper": "Cristal"
   };
 
-  return obj[param.toLowerCase()]||"Beer";
+  return drink[param.toLowerCase()]||"Beer";
 }
 
 
