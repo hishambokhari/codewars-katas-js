@@ -1,6 +1,8 @@
 // promises
 
 
+
+
 const willCleanTheRoom = new Promise((resolve, reject) =>{
 
     let cleanRoom = true;
@@ -27,17 +29,9 @@ const getReward = new Promise((resolve, reject)=> {
   } else {
     reject(':( no rewards')
   }
-})
+});
 
-willCleanTheRoom.then(resolveStatus => {
-  console.log(resolveStatus)
-  return removeGarbage;
-}).then(resolveStatus => {
-  console.log(resolveStatus);
-  return getReward;
-}).then(resolveStatus => {
-  console.log(resolveStatus);
-  console.log('all done');
-}).catch(rejectStatus => {
-  console.log(rejectStatus)
+
+Promise.all([willCleanTheRoom,removeGarbage,getReward]).then((messages)=>{
+  console.log(messages);
 })
