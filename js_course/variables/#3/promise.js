@@ -34,4 +34,6 @@ const getReward = new Promise((resolve, reject)=> {
 
 Promise.all([willCleanTheRoom,removeGarbage,getReward]).then((messages)=>{
   console.log(messages);
+}).catch(messages => {
+  console.log(messages);
 })
