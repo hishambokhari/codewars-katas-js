@@ -1,16 +1,7 @@
-const prac = [1,2,3,4,5,6,7,8,9,10];
 
-//Search
+let array = [3,4,6,2,3,645,2,3,6,83,23,13];
 
-//Node class
-class Node{
-  constructor(data){
-    this.data = data;
-    this.left = left;
-    this.right = right;
-  }
-  
-}
-
-
-
+sorted = array.sort(function(a,b){
+  return a-b
+})
+console.log(sorted);
