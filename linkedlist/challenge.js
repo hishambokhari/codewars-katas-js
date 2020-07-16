@@ -1,29 +1,49 @@
-var tree;
-
-function setup(){
-  noCanvas();
-  tree = new Tree();
-  var n = new Node(5);
-  tree.addNode(n);
-  
-  console.log(tree);
- 
-}
-
-
-function Tree(){
-  this.root = null;
-}
-
-Tree.prototype.addNode = function(n){
-  if (this.root == null) {
-    this.root = n;
+class Node {
+  constructor(value){
+    this.value = value;
+    this.left = left;
+    this.right = right;
   }
 }
 
-function Node(val){
-  this.value = val;
-  this.left = null;
-  this.right = null;
-}
+class BST {
+  constructor(value){
+    this.root = new Node(value)
+    this.count = 0 // counts the amount of keys in the array
+  }
 
+  size(){
+
+  }
+
+  insert(){
+
+  }
+
+  min(){
+
+  }
+
+  max(){
+
+  }
+
+  contains(){
+
+  }
+
+  //depth first search
+
+  //inorder
+  dfsInOrder(){
+
+  }
+  //pre-order
+  dfsPreOrder(){
+    
+  }
+  //post-order
+  dfsPostOrder(){
+    
+  }
+}

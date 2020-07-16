@@ -1,6 +1,6 @@
 //finding 9
 
-const array = [1,2,3,4,5,6,7,8,9,10];
+const array = [2,4,6,9,100,700];
 console.log(array);
 
 
@@ -22,4 +22,4 @@ function binary_search(arr, value){
   return -1;
 }
 
-console.log(binary_search(array, 3))
+console.log(binary_search(array, 750))
