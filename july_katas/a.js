@@ -10,26 +10,26 @@
 // GetSum(-1, 0) == -1 // -1 + 0 = -1
 // GetSum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
 
-function getSum(a, b){
+// function getSum(a, b){
    
   // find lowest of a and b
   // find highest of a and b
-  let begin;
-  let end;
-  if (a<b){
-    begin = a
-    end = b;
-  } else {
-    begin = b
-    end = a;
-  }
+  // let begin;
+  // let end;
+  // if (a<b){
+  //   begin = a
+  //   end = b;
+  // } else {
+  //   begin = b
+  //   end = a;
+  // }
 
-  let sum = 0;
+  // let sum = 0;
 
-  for(let i = begin;i <= end; i++){
-    sum += i;
-  }
-  return sum;
+  // for(let i = begin;i <= end; i++){
+  //   sum += i;
+  // }
+  // return sum;
   
 
   // place to store the sum
@@ -38,8 +38,8 @@ function getSum(a, b){
   // add current index to the sum
 
   //return the sum
-}
-console.log(getSum(0,-1))
+// }
+
 
 // Test.describe("Basic Tests:", function(){
        
@@ -47,3 +47,4 @@ console.log(getSum(0,-1))
 //   Test.assertEquals(getSum(0,1),1);
   
 // });
+
