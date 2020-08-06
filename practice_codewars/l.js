@@ -11,12 +11,9 @@
 // centuryFromYear(2000)  returns (20)
 
 function century(year) {
-  
-  let yearsForOneCentury = 1
-
-  return Math.ceil(year*yearsForOneCentury/100)
+  return Math.ceil(year/100)
 }
-console.log(century(89))
+console.log(century(1601))
 // Test.assertEquals(century(1705), 18, 'Testing for year 1705');
 // Test.assertEquals(century(1900), 19, 'Testing for year 1900');
 // Test.assertEquals(century(1601), 17, 'Testing for year 1601');
