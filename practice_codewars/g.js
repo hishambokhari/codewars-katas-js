@@ -28,10 +28,20 @@
 
 //Recursion
 //factorial
+// function recursiveFunc(n){
+//   if (n === 2){
+//     return 2
+//   }
+//   return n * recursiveFunc(n-1)
+// }
+// console.log(recursiveFunc(5))
+
+//Fibonnaci
+
 function recursiveFunc(n){
-  if (n === 2){
-    return 2
+  if (n < 2){
+    return n
   }
-  return n * recursiveFunc(n-1)
+  return recursiveFunc(n-1) + recursiveFunc(n-2)
 }
-console.log(recursiveFunc(5))
+console.log(recursiveFunc(8))
