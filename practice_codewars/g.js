@@ -38,10 +38,13 @@
 
 //Fibonnaci
 
-function recursiveFunc(n){
-  if (n < 2){
-    return n
-  }
-  return recursiveFunc(n-1) + recursiveFunc(n-2)
-}
-console.log(recursiveFunc(8))
+// function recursiveFunc(n){
+//   if (n < 2){
+//     return n
+//   }
+//   return recursiveFunc(n-1) + recursiveFunc(n-2)
+// }
+// console.log(recursiveFunc(8))
+
+// BFS
+
