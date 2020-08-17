@@ -5,16 +5,16 @@
 // solution("1", "22") // returns "1221"
 // solution("22", "1") // returns "1221"
 
-function solution(a, b){
+// function solution(a, b){
   
-if (a.length<b.length){
-  return a+b+a
-} else {
-  return b+a+b
-}
+// if (a.length<b.length){
+//   return a+b+a
+// } else {
+//   return b+a+b
+// }
 
-}
-console.log(solution('U','False'))
+// }
+// console.log(solution('U','False'))
 // describe("Sample tests", function() {
 //   it("Should pass sample tests", function() {
 //     Test.assertEquals(solution('45', '1'), '1451');
@@ -24,3 +24,21 @@ console.log(solution('U','False'))
 //   });
 // });
     
+
+// Write a function called repeat_str which repeats the given string src exactly count times.
+
+// repeatStr(6, "I") // "IIIIII"
+// repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
+
+// function repeatStr (n, s) {
+   
+//  return s.repeat(n)
+// }
+// console.log(repeatStr(3,"*"))
+// describe("Tests", function() {
+//   it ("Basic tests", function() {
+//     Test.assertSimilar(repeatStr(3, "*"), "***");
+//     Test.assertSimilar(repeatStr(5, "#"), "#####");
+//     Test.assertSimilar(repeatStr(2, "ha "), "ha ha ");
+//   });
+// });
