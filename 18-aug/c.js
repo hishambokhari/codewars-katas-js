@@ -16,6 +16,7 @@ let _temp;
 
 a.sort(function(a,b){return a - b})
 
+
 for(let i = 0; i < a.length;i++){
   if (a[i] !==  _temp){
     b.push(a[i]);
