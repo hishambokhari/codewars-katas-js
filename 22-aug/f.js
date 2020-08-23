@@ -31,3 +31,4 @@ const book2 = new Book('Book two', 'tom', '2016');
 console.log(book2);
 book2.revise('2020')
 console.log(book2.getSummary());
+
