@@ -13,6 +13,12 @@ Book.prototype.getAge = function(){
   return `${this.title} is ${years} years old`
 }
 
+//revise
+Book.prototype.revise = function(newYear){
+  this.year = newYear;
+  this.revise = true;
+}
+
 
 //get summary
 Book.prototype.getSummary = function(){
@@ -22,4 +28,6 @@ Book.prototype.getSummary = function(){
 const book1 = new Book('Book One', 'John Doe', '2013');
 const book2 = new Book('Book two', 'tom', '2016');
 
-console.log(book2.getAge());
+console.log(book2);
+book2.revise('2020')
+console.log(book2.getSummary());
