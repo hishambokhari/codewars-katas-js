@@ -20,3 +20,4 @@ const book2 = {
 // console.log(book2.getSummary())
 // console.log(Object.values(book1)) gets values
 // console.log(Object.keys(book2)) gets keys
+
