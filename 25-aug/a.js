@@ -7,13 +7,16 @@
 
 function filter_list(list) {
 
-  let filtered = [];
+  // let filtered = [];
 
-  for (let i = 0; i < list.length; i++){
-    if(typeof list[i] === 'number' ){
-      filtered.push(list[i])
-    }
-  }
+  // for (let i = 0; i < list.length; i++){
+  //   if(typeof list[i] === 'number' ){
+  //     filtered.push(list[i])
+  //   }
+  // }
+  // return filtered;
+
+  let filtered = list.filter(function(a){ return typeof a === 'number'})
   return filtered;
 }
 console.log(filter_list(([1,2,'a','b'])))
