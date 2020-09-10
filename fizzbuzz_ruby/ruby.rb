@@ -14,20 +14,21 @@
 
 # Hashed FizzBuzz in Ruby
 
-def hashed_fizz_buzz num
-  hash = Hash.new
-  1.upto(num).each do |i|
-    if (i%3==0) && (i %5==0)
-      hash[i] = "FizzBuzz"
-    elsif (i%3==0)
-      hash[i] = "Fizz"
-    elsif (i%5==0)
-      hash[i] = "Buzz"
-    else 
-      hash[i] = i
-    end
-  end
-  hash
-end
+# def hashed_fizz_buzz num
+#   hash = Hash.new
+#   1.upto(num).each do |i|
+#     if (i%3==0) && (i %5==0)
+#       hash[i] = "FizzBuzz"
+#     elsif (i%3==0)
+#       hash[i] = "Fizz"
+#     elsif (i%5==0)
+#       hash[i] = "Buzz"
+#     else 
+#       hash[i] = i
+#     end
+#   end
+#   hash
+# end
 
-puts(hashed_fizz_buzz(16))
+# puts(hashed_fizz_buzz(16))
+
