@@ -6,6 +6,15 @@ const malik = new Artist("Malik")
 
 const abstract = new Painting("Abstract")
 const historic = new Painting("Historic")
+const random = new Painting("Random sketch")
 
-console.log(Artist)
-console.log(Painting)
+gul.made(abstract)
+gul.made(random)
+malik.made(historic)
+
+console.log(random)
+console.log(historic)
+console.log(abstract)
+
+
+

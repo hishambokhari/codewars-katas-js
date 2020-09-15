@@ -10,6 +10,13 @@ class Artist {
     Artist.all.push(this)
     Artist.nextId += 1
   }
+
+  made(painting){
+    painting.artistId = this.id
+  }
+
+
+
 }
 
 module.exports = Artist
