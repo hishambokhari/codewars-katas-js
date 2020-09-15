@@ -12,9 +12,17 @@ gul.made(abstract)
 gul.made(random)
 malik.made(historic)
 
-console.log(random)
-console.log(historic)
-console.log(abstract)
+// console.log(abstract.findMyArtist())
+// console.log(historic.findMyArtist())
+
+console.log(gul.findMyPainting())
+console.log(malik.findMyPainting())
+
+
+
+// console.log(random)
+// console.log(historic)
+// console.log(abstract)
 
 
 

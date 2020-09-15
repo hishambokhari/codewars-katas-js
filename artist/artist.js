@@ -1,3 +1,5 @@
+const Painting = require('./painting')
+
 class Artist {
 
   static all = []
@@ -13,6 +15,13 @@ class Artist {
 
   made(painting){
     painting.artistId = this.id
+  }
+
+  findMyPainting(){
+    let currentId = this.id
+    return Painting.all.filter(function(painting){
+      return painting.artistId === currentId
+    })
   }
 
 

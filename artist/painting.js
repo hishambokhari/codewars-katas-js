@@ -1,3 +1,4 @@
+
 class Painting {
 
   static all = []
@@ -12,7 +13,7 @@ class Painting {
     Painting.nextId += 1
   }
 
-
+ 
 
 }
 
