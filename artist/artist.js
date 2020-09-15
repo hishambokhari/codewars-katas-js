@@ -24,6 +24,13 @@ class Artist {
     })
   }
 
+  delete(){
+    let currentArtist = this
+    return Artist.all.filter(function(artist){
+      return artist !== currentArtist
+    })
+  }
+
 
 
 }
