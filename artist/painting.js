@@ -8,6 +8,7 @@ class Painting {
     this.name = name;
     this.id = Painting.nextId
     this.artistId = null
+    this.customerId = null
 
     Painting.all.push(this)
     Painting.nextId += 1
